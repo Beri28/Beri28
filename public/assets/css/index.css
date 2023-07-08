@@ -1,0 +1,54 @@
+
+.rest1{
+	/*clear: left;
+	width: 85%;
+	height: 20%;*/
+	margin-left: 21px;
+
+}
+/*.main img{
+	border: 3px solid #1F2A37;
+	border-radius: 25%;
+	width: 15%;
+	float: left;
+	margin-top: 25px;
+}*/
+.caption{
+	margin-top: 25px;
+	float: left;
+	width: 100%;
+	/*height: 55%;*/
+	/*font-size: 1.9vw;/*this property makes the text reponsive*/
+}
+.button{
+	float: right;
+	margin-top: -25px;
+	width: 35%;
+}
+button{
+	border:1px solid rgb(192, 113, 113);
+	padding: 5px 15px 5px 15px;
+	background-color:#ce1212;
+	color: white;
+	
+	border-radius: 10%;
+}
+button:hover{
+	background-color: rgb(221,76,76);
+}
+.name{
+	font-weight: bold;
+	font-family: inherit;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
