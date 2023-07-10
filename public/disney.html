@@ -37,34 +37,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-   	<!-- Start of Async Drift Code -->
-<script>
-	"use strict";
-	
-	!function() {
-	  var t = window.driftt = window.drift = window.driftt || [];
-	  if (!t.init) {
-		if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-		t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-		t.factory = function(e) {
-		  return function() {
-			var n = Array.prototype.slice.call(arguments);
-			return n.unshift(e), t.push(n), t;
-		  };
-		}, t.methods.forEach(function(e) {
-		  t[e] = t.factory(e);
-		}), t.load = function(t) {
-		  var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-		  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-		  var i = document.getElementsByTagName("script")[0];
-		  i.parentNode.insertBefore(o, i);
-		};
-	  }
-	}();
-	drift.SNIPPET_VERSION = '0.3.1';
-	drift.load('svyyafgtma2f');
-	</script>
-	<!-- End of Async Drift Code -->
+ 
 </head>
 
 <body>
@@ -140,8 +113,20 @@
             <!--img src="HydrangeaS.jpg"-->
             <div class="caption" style="border: 2px solid rgb(110,109,106); border-right: none; border-left: none;">
             <div class="about name">Standard Theme Park Ticket</div>
-            <div class="about location">1 to 5-day ticket. The longer you play the less you pay per day</div>
+            <div class="about location">1 to 10-day ticket. The longer you play the less you pay per day</div>
             <div class="about date">Starting at <b>$83/day</b></div>
+            <div class="button1"><button class="rate" type="submit">Select</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="main">
+          <div class="rest1" >
+            <!--img src="HydrangeaS.jpg"-->
+            <div class="caption" style="border: 2px solid rgb(110,109,106); border-right: none; border-left: none;">
+            <div class="about name">4-day,4-Park Magic Ticket</div>
+            <div class="about location">Valid June 1 through September 29,2023</div>
+            <div class="about location">Includes one admission to each of the 4 Walt Disney World theme parks(Magic Kingdom...)- for a total of 4 admissions, on 4 separate days.</div>
+            <div class="about date">Starting at <b>$90/day</b> and <b>$396 per ticket</b></div>
             <div class="button1"><button class="rate" type="submit">Select</button></div>
             </div>
           </div>
@@ -173,13 +158,10 @@
     <div class="modal1">
       <div class="modal1-content">
         <span class="closs1-button" style="cursor: default;">&times;</span>
-       <p> <label></label>Click green icon at bottom right corner of screen to talk to our customer support about your needs and 
-          get the best advice and some heads up about the event</label></p>
-        <!--span class="closs1-button">&times;</span>
         <h3 class="modalHeader1"></h3>
         <h6>Children below the age of 3 don't need a ticket</h6>
         
-        <form style="background-color: inherit;" method="post" action="/test">
+        <!--form style="background-color: inherit;" method="post" action="/test"-->
           <input type="hidden" class="modalHeader2" name="Category">
           <label>Select date : <input type="date" name="Restaurant_name" class="Restaurant_name" ></label>
           
@@ -197,10 +179,11 @@
               <option value="OnePark">One Park Per Day</option>
               <option value="ParkHopper">Park Hopper(different parks in same day)</option>
             </select>
-        <button class="modal1-button" >Proceed</button>
-        </form-->
+        <button class="modal1-button proceed" >Proceed</button>
+        <!--/form-->
         
         
+        <p> <label class="feedback"></label></p>
       </div>
     </div>
 
@@ -278,7 +261,7 @@
 				toggleModal();
 			}
 		}
-	console.log(d[2])
+	
 		for(let i=0;i<d.length;i++){
 			d[i].addEventListener('click',toggleModal)
 		}
@@ -288,7 +271,6 @@ $(document).ready(function(){
   var value=$(".button1")
 	var ame=$(".name")
 	var location2=$('.date')
-	console.log(location2[0])
 	const amount=ame.length;
 	const names=[];
 	const adress=[]
@@ -302,8 +284,14 @@ $(document).ready(function(){
 		document.querySelector(".modalHeader2").value=names[i];
     //document.querySelector(".Restaurant_name").value=names[i].toLowerCase();
 		//document.querySelector(".Location_one").value=adress[i].toLowerCase();
-		console.log(value[i]);
+		
 	})};
+  let proceed=document.querySelector('.proceed')
+    let feedback=document.querySelector('.feedback')
+   
+    proceed.addEventListener('click',()=>{
+    feedback.innerHTML="Click green icon at bottom right corner of screen to talk to our customer support about your needs and get the best advice and some heads up about the event.";
+  })
 })
   </script>
 

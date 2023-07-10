@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Harry Styles Concerts</title>
+  <title>The Weeknd Concerts</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,8 +28,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/index.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
-  
-
 
   <!-- =======================================================
   * Template Name: Yummy - v1.3.0
@@ -37,7 +35,6 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-   
 </head>
 
 <body>
@@ -93,10 +90,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Harry Styles Concerts</h2>
+          <h2>The Weeknd Concerts</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Harry Styles Concerts</li>
+            <li>The Weeknd Concerts</li>
           </ol>
         </div>
 
@@ -105,63 +102,20 @@
 
     <section class="sample-page">
       <div class="container" data-aos="fade-up">
-        <div class="main">
-          <div class="rest1">
-            <!--img src="HydrangeaS.jpg"-->
-            <div class="caption">
-            <div class="about name">Harry Styles</div>
-            <div class="about location">Ernst-Happel-Stadion | Vienna,Austria</div>
-            <div class="about date">July 8</div>
-            <div class="button"><a href="/harrySeats"><button class="rate" type="submit">Tickets</button></a></div>
+        <h6>Looks there aren't any The Weeknd tickets right now.Please enter your email below to get event updates and in the meantime you can browse upcoming events from our <a href="/">homepage</a></h6>
+        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 text">
+              <input type="email" class="form-control email" name="email" id="email" placeholder="Your Email" value="" data-rule="email" data-msg="Please enter a valid email" required>
+              <div class="validate"></div>
+              <div class="text-center fastBuy"><button type="submit">Proceed</button></div>
+              <div class="text-center "><button type="submit" class="fastReply"></button></div>
             </div>
           </div>
-        </div>
-        <div class="main">
-          <div class="rest1">
-            <!--img src="HydrangeaS.jpg"-->
-            <div class="caption">
-            <div class="about name">Harry Styles</div>
-            <div class="about location">Estadi Olimpic Lluis Company | Barcelona,Spain</div>
-            <div class="about date">July 12</div>
-            <div class="button"><a href="/harrySeats"><button class="rate" type="submit">Tickets</button></a></div>
-            </div>
-          </div>
-        </div>
-        <div class="main">
-            <div class="rest1">
-              <!--img src="HydrangeaS.jpg"-->
-              <div class="caption">
-              <div class="about name">Harry Styles</div>
-              <div class="about location">Nuevo Espacio Mad Cool | Madrid,Spain</div>
-              <div class="about date">July 14</div>
-              <div class="button"><a href="/harrySeats"><button class="rate" type="submit">Tickets</button></a></div>
-              </div>
-            </div>
-          </div>
-          <div class="main">
-            <div class="rest1">
-              <!--img src="HydrangeaS.jpg"-->
-              <div class="caption">
-              <div class="about name">Harry Styles</div>
-              <div class="about location">Passeio Maritimo Alges | Lisbon,Portugal</div>
-              <div class="about date">July 18</div>
-              <div class="button"><a href="/harrySeats"><button class="rate" type="submit">Tickets</button></a></div>
-              </div>
-            </div>
-          </div>
-          <div class="main">
-            <div class="rest1">
-              <!--img src="HydrangeaS.jpg"-->
-              <div class="caption">
-              <div class="about name">Harry Styles</div>
-              <div class="about location">RCF Arena | Reggio Emilia,Italy</div>
-              <div class="about date">July 22</div>
-              <div class="button"><a href="/harrySeats"><button class="rate" type="submit">Tickets</button></a></div>
-              </div>
-            </div>
-          </div>
+        </form>  
       </div>
     </section>
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -224,6 +178,17 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    let fastBuy=document.querySelector('.fastBuy')
+    let fastReply=document.querySelector('.fastReply')
+   
+    fastBuy.addEventListener('click',()=>{
+    let email=document.querySelector('.email')
+    if(email.value!=''){
+    fastReply.innerHTML="Thanks. We will update you on upcoming The Weeknd events.";
+    }
+  })
+  </script>
 </body>
 
 </html>

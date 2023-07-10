@@ -9,6 +9,7 @@ app.use(express.json())
 app.use(express.urlencoded())
 app.engine('hbs',hbs.engine({
     extname:'hbs',
+    defaultLayout:'main.hbs',
     layoutsDir:'./views/partials',
     partialsDir:'./views/partials'
 }))

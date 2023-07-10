@@ -25,7 +25,37 @@ router.get('/concerts',(req,res)=>{
     res.sendFile('sports.html',{root:'./public'})
 }).get('/mls',(req,res)=>{
     res.sendFile('mls.html',{root:'./public'})
+}).get('/coldPlay',(req,res)=>{
+    res.sendFile('coldplay.html',{root:'./public'})
+}).get('/weeknd',(req,res)=>{
+    res.sendFile('weeknd.html',{root:'./public'})
+}).get('/neilYoung',(req,res)=>{
+    res.sendFile('young.html',{root:'./public'})
+}).get('/morganWallen',(req,res)=>{
+    res.sendFile('wallen.html',{root:'./public'})
+}).get('/taylorSeats',(req,res)=>{
+    res.render('seats4',{layout:null,name:"Taylor Swift"})
+}).get('/beyonceSeats',(req,res)=>{
+    res.render('seats',{layout:null,name:"Beyonce"})
+}).get('/drakeSeats',(req,res)=>{
+    res.render('seats2',{layout:null,name:"Drake"})
+}).get('/drakeSeats2',(req,res)=>{
+    res.render('seats21',{layout:null,name:"Drake"})
+}).get('/coldPlaySeats',(req,res)=>{
+    res.render('seats3',{layout:null,name:"Coldplay"})
+}).get('/harrySeats',(req,res)=>{
+    res.render('seats',{layout:null,name:"Harry Styles"})
+}).get('/madonnaSeats',(req,res)=>{
+    res.render('seats2',{layout:null,name:"Madonna"})
+}).get('/wallenSeats',(req,res)=>{
+    res.render('seats3',{layout:null,name:"Morgan Wallen"})
+}).get('/weekndSeats',(req,res)=>{
+    res.render('seats4',{layout:null,name:"The Weeknd"})
+}).get('/youngSeats',(req,res)=>{
+    res.render('seats',{layout:null,name:"Neil Young"})
 })
+
+
 router.post('/add',add).post('/test',(req,res)=>{
     console.log(req.body)
 }).get('/search/:name',(req,res)=>{
