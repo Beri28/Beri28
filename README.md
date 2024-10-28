@@ -10,7 +10,7 @@ Passionate software engineering student always looking forward to the next probl
 ) ![Typescript](https://img.shields.io/badge/typescript-blue?style=for-the-badge&logo=typescript&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-%232D3748?style=for-the-badge&logo=prisma&logoColor=white
 )
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Beri28&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show=reviews,prs_merged,prs_merged_percentage)<br/>
+![](https://github-readme-stats.vercel.app/api?username=Beri28&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&show=reviews,prs_merged,prs_merged_percentage&show_icons=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Beri28&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Beri28&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
