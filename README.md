@@ -21,11 +21,11 @@ Passionate software engineering student always looking forward to the next probl
 ### 😂 Random Dev Meme
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark"
+    srcset="https://content.imageresizer.com/images/memes/They-call-me-007-meme-1.jpg&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true"
+    srcset="https://content.imageresizer.com/images/memes/They-call-me-007-meme-1.jpg"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
   <img src="https://content.imageresizer.com/images/memes/They-call-me-007-meme-1.jpg" width="100%"/>
