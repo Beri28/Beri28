@@ -11,6 +11,7 @@ Passionate software engineering student always looking forward to the next probl
 )
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Beri28&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-stats.vercel.app/api?username=Beri28&theme=dark&hide_border=false&include_all_commits=true&count_private=true)](https://github.com/Beri28/github-readme-stats)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Beri28&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Beri28&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
