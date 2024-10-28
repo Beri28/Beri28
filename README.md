@@ -10,7 +10,7 @@ Passionate software engineering student always looking forward to the next probl
 ) ![Typescript](https://img.shields.io/badge/typescript-blue?style=for-the-badge&logo=typescript&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-%232D3748?style=for-the-badge&logo=prisma&logoColor=white
 )
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Beri28&theme=gruvbox&hide_border=false&include_all_commits=true&count_private=true&show=reviews,prs_merged,prs_merged_percentage&show_icons=true)<br/>
+![](https://github-readme-stats.vercel.app/api?username=Beri28&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show=reviews,prs_merged,prs_merged_percentage&show_icons=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Beri28&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Beri28&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
@@ -19,7 +19,18 @@ Passionate software engineering student always looking forward to the next probl
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### 😂 Random Dev Meme
-<img src="https://content.imageresizer.com/images/memes/They-call-me-007-meme-1.jpg" width="100%"/>
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://content.imageresizer.com/images/memes/They-call-me-007-meme-1.jpg" width="100%"/>
+</picture>
+
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Beri28&icon=0&color=0)](https://visitcount.itsvg.in)
